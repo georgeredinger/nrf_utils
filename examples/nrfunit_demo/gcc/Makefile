@@ -15,10 +15,10 @@
 #
 
 # Change this if your SDK is in a differnt place.
-SDK_PATH = /opt/local/nordic/sdk/nRF51_SDK_8.0.0_5fc2c3a
+SDK_PATH = /home/george/workspace/nRF51_SDK_8.0.0_5fc2c3a
 
 # Change this if your GNU ARM tools are in a different place.
-GNU_INSTALL_ROOT = /opt/local/gcc-arm/gcc-arm-none-eabi-4_9-2014q4
+GNU_INSTALL_ROOT = /usr/bin
 
 # Send our printfs to the uart.
 CFLAGS += -DWRITE_TO_APP_UART
